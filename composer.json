@@ -1,0 +1,23 @@
+{
+  "name": "eureka/eureka-package-coreapi",
+  "description": "Common core api package home for Eureka Framework",
+  "type": "library",
+  "license": "MIT",
+
+  "authors": [
+    {
+      "name": "Romain Cottard",
+      "role": "Developer"
+    }
+
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Eureka\\Package\\CoreApi\\": "./src"
+    }
+  },
+
+  "require": {
+  }
+}
